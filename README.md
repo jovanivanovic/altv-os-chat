@@ -81,7 +81,7 @@ alt.emit('chat:Toggle', state);
 | -------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `state`  | `[optional]` Sets the visibility state of the chat. If not set, it will show/hide according to the current state of it. |
 
-## Working with player's messages
+## Scrolling the chat
 
 Scrolling the chat is done simply by pressing `Page Up` or `Page Down` keys on your keyboard.
 
