@@ -105,3 +105,4 @@ alt.on('chat:NewMessage', (player, message) => {
 -   [Authentication by Stuyk](https://github.com/Stuyk/altv-os-auth)
 -   [Global Blip Manager by Dzeknjak](https://github.com/jovanivanovic/altv-os-global-blip-manager)
 -   [Global Marker Manager by Dzeknjak](https://github.com/jovanivanovic/altv-os-global-marker-manager)
+-   [Nametags by Stuyk](https://github.com/Stuyk/altv-os-nametags)
