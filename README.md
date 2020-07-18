@@ -16,6 +16,31 @@ https://www.buymeacoffee.com/dzeknjak
 
 Simple chat implementation for alt:V to get your server started with some player-to-player interaction.
 
+## Installing Dependencies / Installation
+
+**I cannot stress this enough. Ensure you have NodeJS 13+ or you will have problems.**
+
+-   [NodeJS 13+](https://nodejs.org/en/download/current/)
+-   An Existing or New Gamemode
+-   General Scripting Knowledge
+
+Afterwards, simply add the name of this resource to your `server.cfg` resource section.
+
+`altv-os-chat`
+
+Then simply clone this repository into your main server resources folder.
+
+```
+cd resources
+git clone https://github.com/jovanivanovic/altv-os-chat
+```
+
+Ensure your `package.json` includes this property:
+
+```json
+"type": "module"
+```
+
 # Usage
 
 There's couple of events to get you started with this resource:
