@@ -16,7 +16,7 @@
                     <div v-for="message, index of reversedMessages" class="message" :inner-html.prop="message | colorify"></div>
                 </div>
                 <div class="input">
-                    <input type="text" v-model="currentMessage" ref="input" v-on:keyup.enter="send" v-on:keyup.esc="unfocus" v-on:keyup.page-down="pageDown" v-on:keyup.page-up="pageUp" />
+                    <input tabindex="-1" type="text" v-model="currentMessage" ref="input" v-on:keyup.enter="send" v-on:keyup.esc="unfocus" v-on:keyup.page-down="pageDown" v-on:keyup.page-up="pageUp" />
                 </div>
             </div>
         </div>
