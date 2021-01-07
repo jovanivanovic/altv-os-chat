@@ -58,11 +58,12 @@ There's couple of events to get you started with this resource:
 ```
 
 ```javascript
-alt.emit('chat:Init', key);
+alt.emit('chat:Init', player, [key]);
 ```
 
 | Argument | Description                                                              |
 | -------- | ------------------------------------------------------------------------ |
+| `player` | Instance of a player to initialize the chat for.                         |
 | `key`    | `[optional]` Keyboard key to trigger the chat input. Default key is `T`. |
 
 To find a keycode, go to this website: [JavaScript Event KeyCodes](http://keycode.info/)
@@ -99,7 +100,7 @@ alt.emit('chat:Broadcast', message);
 ---
 
 ```javascript
-alt.emit('chat:Toggle', state);
+alt.emit('chat:Toggle', [state]);
 ```
 
 | Argument | Description                                                                                                             |
